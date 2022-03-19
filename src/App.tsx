@@ -2,18 +2,12 @@ import { useEffect, useState } from "react";
 import {
   ChakraProvider,
   Box,
-  Text,
-  Link,
-  VStack,
-  Code,
-  Grid,
+  Text, 
   theme,
   Center,
   Input,
   Button,
 } from "@chakra-ui/react";
-import { ColorModeSwitcher } from "./ColorModeSwitcher";
-import { Logo } from "./Logo";
 
 export const App = () => {
   const [value, setValue] = useState(0);
